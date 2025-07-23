@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #49154e;
+}
+
+header {
+    background-color: #49154e;
+    height: 15vh;
+}
+
+.Logo {
+    margin-left: 40pt;
+    margin-top: 7pt;
+    width: 23vh;
+    float: left;
+}
+
+.right ul li,
+.left ul li {
+    display: inline-block;
+}
+
+.left ul li {
+    margin-top: 25pt;
+    float: left;
+    padding-left: 25pt;
+}
+
+.right ul li {
+    margin-top: 25pt;
+    float: right;
+    padding-right: 30pt;
+}
+
+.right ul li a,
+.left ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Search {
+    margin-left: 70px;
+    width: 20px;
+}
+
+.Talk {
+    float: right;
+    border: 1px solid white;
+    background-color: #49154e;
+    color: white;
+    margin-top: 23px;
+    margin-right: 20px;
+    height: 40px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.Try {
+    float: right;
+    background-color: white;
+    color: #49154e;
+    border: none;
+    margin-top: 23px;
+    height: 40px;
+    width: 135px;
+    margin-right: 70pt;
+    border-radius: 5px;
+}
+
+.Content-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20pt;
+}
+
+.main-content {
+    margin-top: 45pt;
+    align-items: center;
+}
+
+.content {
+    margin-left: 50pt;
+}
+
+p {
+    font-size: 15pt;
+    margin-top: 3pt;
+    color: white;
+}
+
+#one {
+    font-size: 37pt;
+    color: white;
+}
+
+#two {
+    font-size: 37pt;
+    margin-top: 3pt;
+    color: gold;
+}
+
+.lowerbuttons {
+    margin-top: 27pt;
+    margin-left: 50pt;
+}
+
+#email {
+    background-color: white;
+    color: #49154e;
+    height: 35pt;
+    width: 210pt;
+    border: none;
+    border-radius: 3px;
+}
+
+#google {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    height: 35pt;
+    width: 170pt;
+    border: none;
+    border-radius: 3px;
+}
+
+h3 {
+    margin-top: 10pt;
+    margin-left: 50pt;
+    color: white;
+}
+
+.RightImage {
+    margin-top: 45pt;
+    width: 60%;
+    text-align: right;
+}
+
+.RightImage img {
+    max-width: 100%;
+    height: auto;
+}
